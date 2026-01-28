@@ -1,0 +1,217 @@
+🔢 NumPy Practice Questions (Medium Level)
+
+1. Array Creation
+Create a NumPy array of numbers from 1 to 20. Then print its size.
+
+2. Zeros & Ones
+Create:
+
+a 3×4 array filled with zeros
+
+a 2×5 array filled with ones
+
+3. Full Function
+Create a 4×4 array where every value is 7 using NumPy.
+
+4. Reshape
+Create an array from 1 to 12 and reshape it into:
+
+3×4
+
+2×6
+
+5. Flatten
+Take a 3×3 matrix and convert it into a 1D array using flatten.
+
+6. Arrange (arange)
+Create an array starting from 10 to 50 with a step of 5.
+
+7. Sum of Elements
+Given array:
+[10, 20, 30, 40, 50]
+Find:
+
+total sum
+
+sum of first 3 elements only
+
+8. Matrix Addition
+Add the following two arrays:
+
+A = [[1,2,3],
+     [4,5,6]]
+
+
+B = [[6,5,4],
+     [3,2,1]]
+
+9. Matrix Subtraction
+Subtract array B from array A (from Q8).
+
+10. Element-wise Multiplication
+Multiply arrays A and B element by element.
+
+11. Mean
+Find the mean of:
+[12, 15, 20, 25, 30]
+
+12. Median
+Find the median of:
+[5, 2, 9, 1, 7, 6]
+
+13. Standard Deviation
+Find the standard deviation of:
+[4, 8, 6, 5, 3, 7]
+
+14. Row-wise Sum
+Given matrix:
+
+[[1,2,3],
+ [4,5,6],
+ [7,8,9]]
+
+Find sum of each row separately.
+
+15. Column-wise Sum
+Using the same matrix from Q14, find sum of each column.
+
+16. Reshape + Mean
+Create numbers from 1 to 16, reshape into 4×4, then find the mean of each row.
+
+17. Flatten + Size
+Create a 5×5 ones matrix. Flatten it and find its size.
+
+18. Arithmetic Combination
+Given:
+A = [1,2,3,4]
+B = [5,6,7,8]
+
+Compute:
+(A + B) * 2
+
+19. Mixed Operations
+Create array from 1–9, reshape to 3×3. Multiply entire matrix by 5 and then find total sum.
+
+20. Statistics Combo
+Given:
+[15, 18, 21, 24, 27, 30]
+
+Find:
+
+mean
+
+median
+
+standard deviation
+----------------------------------------------------------
+hard
+
+1. Advanced Reshape + Sum
+
+Create an array from 1 to 48.
+Reshape it into 4 × 4 × 3.
+Find:
+
+sum along axis 0
+
+sum along axis 1
+
+sum along axis 2
+
+2. Conditional Replacement
+
+Create array from 1 to 20.
+Replace all numbers:
+
+divisible by 3 → -1
+
+divisible by 5 → 100
+
+(Do it using NumPy, not loops.)
+
+3. Broadcasting Math
+
+Given:
+
+A = np.array([[1,2,3],
+              [4,5,6],
+              [7,8,9]])
+
+
+B = np.array([10,20,30])
+
+Add B to every row of A using broadcasting.
+
+4. Flatten vs Ravel Logic
+
+Create a 3×3 matrix.
+Use ravel() to flatten and modify the first element.
+Then check whether original array changes.
+Explain why.
+
+5. Indexing Challenge
+
+Create array 1–25 and reshape to 5×5.
+Extract:
+
+middle row
+
+last column
+
+corner elements only
+
+6. Statistical Axis Problem
+
+Given:
+
+arr = np.array([[10,20,30],
+                [40,50,60],
+                [70,80,90]])
+
+Find:
+
+mean of each column
+
+standard deviation of each row
+
+7. Matrix Arithmetic Combo
+
+Create two random 3×3 arrays.
+Compute:
+
+(A + B) * 2 - A
+
+8. Pattern Matrix
+
+Create this matrix using NumPy only:
+
+[[1,0,1,0],
+ [0,1,0,1],
+ [1,0,1,0],
+ [0,1,0,1]]
+
+(No manual typing.)
+
+9. 3D Array Stats
+
+Create array from 1–27 and reshape to 3×3×3.
+Find:
+
+overall mean
+
+mean along axis 0
+
+median of entire array
+
+10. Multi-step Transformation
+
+Create array from 1–16.
+Steps:
+
+Reshape to 4×4
+
+Multiply each column by [1,2,3,4]
+
+Flatten result
+
+Find standard deviation
