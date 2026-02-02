@@ -1,0 +1,64 @@
+1️⃣ Create a Series from [10, 20, 30, 40].
+
+2️⃣ Create a Series with values [5, 6, 7] and index ["a","b","c"].
+
+3️⃣ Create a Series from dictionary:
+
+{"Math": 85, "Sci": 90, "Eng": 88}
+
+
+4️⃣ Create a Series with scalar value 100 repeated for 5 indices.
+
+5️⃣ Print first 3 values of a Series.
+
+6️⃣ Print last 2 values.
+
+7️⃣ Get the datatype of a Series.
+
+8️⃣ Find number of elements in Series.
+
+9️⃣ Select value using label "b".
+
+🔟 Select value using position 2.
+
+1️⃣1️⃣ Slice first 4 elements.
+
+1️⃣2️⃣ Filter values greater than 50.
+
+1️⃣3️⃣ Replace value 20 with 200.
+
+1️⃣4️⃣ Rename index "a" to "alpha".
+
+1️⃣5️⃣ Sort a Series by values.
+
+🟡 MEDIUM LEVEL (16–30)
+
+1️⃣6️⃣ Add 10 to every element in Series.
+
+1️⃣7️⃣ Multiply two Series together.
+
+1️⃣8️⃣ Find sum of Series.
+
+1️⃣9️⃣ Find mean of values.
+
+2️⃣0️⃣ Find median.
+
+2️⃣1️⃣ Find standard deviation.
+
+2️⃣2️⃣ Count non-null values.
+
+2️⃣3️⃣ Replace missing values with 0.
+
+2️⃣4️⃣ Drop missing values.
+
+2️⃣5️⃣ Get top 3 largest values.
+
+2️⃣6️⃣ Get 2 smallest values.
+
+2️⃣7️⃣ Apply lambda to square each value.
+
+2️⃣8️⃣ Count frequency of unique values.
+
+2️⃣9️⃣ Reindex Series to include new label "z".
+
+3️⃣0️⃣ Calculate cumulative sum of Series.
