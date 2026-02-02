@@ -1,0 +1,10 @@
+pandas
+1d : Series
+2d : DataFrame
+
+use:
+1. data manipulation
+2. data cleaning
+3. data analysis
+4. data visualization
+
