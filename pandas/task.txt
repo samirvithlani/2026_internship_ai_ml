@@ -101,3 +101,82 @@ Empty DataFrame: Create an empty DataFrame. Then add two columns "A" and "B" wit
 Reorder Columns: Rearrange the columns so that "Age" appears before "Name".
 Conditional Update (Manual): Update the "Age" of "Alice" (index 0) to 26 using at or loc.
 Random Sample: specificy a random seed (optional) and select a random sample of 3 rows from the DataFrame.
+-------------------------------------------
+04/02/2026
+
+1️⃣ Load Dataset
+
+Load Movieratingdata1.csv and show all rows & columns.
+
+2️⃣ Custom Missing Values
+
+While loading, treat
+"not available" and "not mension" as NaN in PRODUCTION_YEAR.
+
+3️⃣ Replace Text Missing Values
+
+Replace "not available", "not mension", "not value" in whole dataframe with np.nan.
+
+4️⃣ Count Total Missing Values
+
+Find total number of missing values in the dataset.
+
+5️⃣ Column-wise Missing Count
+
+Show missing values count for each column.
+
+6️⃣ Drop Rows Where All Values Missing
+
+Remove rows where every column is NaN.
+
+7️⃣ Drop Columns with Any Missing Value
+
+Remove columns that contain at least one NaN.
+
+8️⃣ Fill Missing Movie ID
+
+Fill missing MOVIE_ID with 0.
+
+9️⃣ Fill Missing Production Year
+
+Replace missing PRODUCTION_YEAR with 2000.
+
+🔟 Fill Missing Ratings with Mean
+
+Convert RATING to float and fill missing values using average rating.
+
+1️⃣1️⃣ Replace Wrong Entry
+
+Replace "1390411" with "The Batman".
+
+1️⃣2️⃣ Rename Columns
+
+Rename columns to lowercase.
+
+1️⃣3️⃣ Change Data Type
+
+Convert PRODUCTION_YEAR to integer.
+
+1️⃣4️⃣ Remove Duplicate Rows
+
+Delete duplicate rows from dataset.
+
+1️⃣5️⃣ Show Data Types
+
+Display datatype of each column.
+
+1️⃣6️⃣ Reset Index
+
+Reset the dataframe index after cleaning.
+
+1️⃣7️⃣ Drop Movie Title Column
+
+Remove MOVIE_TITLE column.
+
+1️⃣8️⃣ Fill All Remaining NaNs
+
+Fill all remaining NaN values with "Unknown".
+
+1️⃣9️⃣ Describe Dataset
+
+Show summary statistics of numeric columns.
