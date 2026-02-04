@@ -1,0 +1,13 @@
+USER_ID,MOVIE_ID,MOVIE_TITLE,PRODUCTION_YEAR,GENRES,RATING
+1,4642044,Riot ,2015,Action,
+,#N/A,,,,
+3,not value,,2014,,
+4,1390411,,2015,,5
+5,6306064,,not available,Action|Adventure|Biography|Drama|Romance|Thriller,4
+6,6306064,,not mension,Action|Adventure|Biography|Drama|Romance|Thriller,5
+7,2719848,,2015,Action|Adventure|Biography|Drama|Thriller,not available
+8,462504,,2006,Action|Adventure|Biography|Drama|War,not mension
+9,NULL,,2020,Action|Adventure|Biography|Drama|Western,10
+10,163225,The Revenant ,2015,Action|Adventure|Biography|Drama|Western,9
+11,1663202,,2015,Action|Adventure|Biography|Drama|Western,9
+12,1663202,The Revenant ,2021,Action|Adventure|Biography|Drama|Western,6
