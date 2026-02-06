@@ -1,0 +1,119 @@
+📊 Final Project: Data Cleaning & Preprocessing – “Retail Store Sales (Dirty CSV)”
+🔗 Dataset
+
+Use the Retail Store Sales: Dirty for Data Cleaning dataset from Kaggle.
+This dataset is intentionally messy and designed for cleaning practice.
+
+👉 Download link (CSV):
+https://www.kaggle.com/datasets/ahmedmohamed2003/retail-store-sales-dirty-for-data-cleaning
+
+📌 Typical size: small enough for beginners, but with realistic issues.
+
+📘 Project Objective
+
+Students will take a raw, messy retail sales dataset and apply data cleaning techniques to make it analysis-ready. The final output should be a cleaned CSV and a report or notebook explaining the steps taken.
+
+📌 Learning Outcomes
+
+By completing this project, students should be able to:
+
+✅ Understand the common data quality issues
+
+Missing values
+
+Incorrect formats
+
+Duplicate entries
+
+Inconsistent categories
+
+Wrong data types
+
+✅ Apply cleaning techniques
+
+Detect and handle missing data
+
+Standardize text categories
+
+Convert column data types (e.g., dates, numbers)
+
+Remove or correct duplicates
+
+Fix invalid values
+
+✅ Use tools and libraries
+
+Students can use Python + Pandas, OpenRefine, or Excel/Google Sheets depending on course scope.
+
+🛠 Suggested Tasks
+
+Here’s what students should do (guided checklist):
+
+🧹 1. Load & Inspect the Data
+
+Read the CSV and inspect rows/columns
+
+Print basic summary (shape, dtypes, sample rows)
+
+❓ 2. Identify Issues
+
+Count nulls/missing values
+
+Find inconsistent text categories
+
+Detect weird row entries
+
+🔄 3. Clean the Data
+
+Fill or drop missing values thoughtfully
+
+Standardize inconsistent text labels
+
+Convert date and numeric fields to correct types
+
+Remove duplicates
+
+Correct obvious errors (e.g., negative prices)
+
+📊 4. Save Clean CSV
+
+Save cleaned data as a new CSV file
+
+Compare before/after metrics (null counts, row count, etc.)
+
+🧾 5. Documentation
+
+In a notebook/report, students should include:
+
+What issues were found
+
+What steps were done to fix them
+
+Before & after views
+
+Code + explanation
+
+📌 Optional Advanced Extensions
+
+Give bonus points for:
+
+✨ Handling outliers
+✨ Visualizing missing data (heatmaps, etc.)
+✨ Creating summary insights from cleaned dataset (e.g., total sales per category)
+✨ Using OpenRefine to automate transformations
+
+📥 How to Submit
+
+Students turn in:
+
+📎 Cleaned CSV file
+📎 Jupyter notebook / script with code
+📎 Documentation report (PDF or markdown)
+
+📌 Project Rubric (Example)
+Criteria	Points
+Issue identification	20
+Cleaning quality	30
+Code clarity & comments	20
+Documentation & explanation	20
+Optional extensions	10
