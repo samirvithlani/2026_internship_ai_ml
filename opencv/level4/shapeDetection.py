@@ -46,7 +46,6 @@ for cnt in contours:
             shape = "Circle"
 
 
-        
 
         # -------- DRAW SHAPE --------
         if corners > 6:
