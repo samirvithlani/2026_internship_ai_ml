@@ -1,0 +1,34 @@
+confusion matrix
+cn
+
+TP
+TN
+FP
+FN
+
+accuracy:83
+(tp+tn) /total
+
+TP 50 FN 10
+Fp 20 TN 100
+
+Precision:0.714
+
+TP / (TP+fp) ->
+
+Recall : 83
+tp /(tp+fn) --> 
+
+F1 Score:
+
+(p *r )/ (p + r) * 2
+
+------------------->
+
+
+
+
+
+
+
+
